@@ -1,0 +1,64 @@
+* { padding: 0; margin: 0; }
+body {font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 11px; background-color:#003b76 ; background-image:url(images/bg.jpg); background-repeat:repeat-x; background-position:top}
+#wrapper {margin: 0 auto; width: 802px; background-color:#629bda; border:1px solid #506a89}
+
+/* Navigation */
+#navigation {width: 802px; height:45px; background-color:#000; color:#2f3e0e; background-image:url(images/menu.gif); background-repeat:repeat-x; line-height:27px;}
+#navigation h1{float:left; font-size:24px; font-weight:normal; padding:5px 0 0 20px; color:#fff}
+#navigation ul {float:right; margin:5px 0 0 0}
+#navigation ul li{list-style:none; display:inline}
+#navigation a{padding:0 10px 0 10px}
+#navigation a:link {color:#2f3e0e; text-decoration:none}
+#navigation a:visited {color:#2f3e0e; text-decoration:none}
+#navigation a:hover {color:#fff; text-decoration:underline}
+		
+/*Header*/	
+#header {width: 802px; height:309px; background-image:url(images/header.jpg); background-repeat:no-repeat; border-top:1px solid #675861;  border-bottom:1px solid #675861}
+#header h1{color:#fd7a00; font-size:24px; font-weight:normal; padding:20px 0 0 30px}
+#header h2{font-size:20px; text-align:right; color:#fff; padding:180px 20px 0 0; font-weight:normal}
+
+/*Content*/
+#content {width: 802px; padding:0 0 10px 0}
+#content img {float:left; padding:10px}
+#content h1 {font-size:18px; color:#fff; font-weight:normal; margin:5px 0 0 270px; background-image:url(images/h.jpg); background-repeat:no-repeat; line-height:45px; padding:0 0 0 10px}
+#content p {font-size:11px; color:#000; font-weight:normal; padding:10px 0 0 270px}
+#content a{color:#000; font-weight:bold}
+#left {width:270px; float:left}
+#left img {float:none; padding:15px}
+#right {width:530px; float:left}
+#right h1 {font-size:18px; color:#fff; font-weight:normal; margin:10px 0 0 0px; background-image:url(images/h.jpg); background-repeat:no-repeat; line-height:40px; padding:0 0 15px 10px}
+#right p {font-size:11px; color:#000; font-weight:normal; padding:10px 0 0 10px}
+
+/* Footer */
+#footer {width: 802px; clear:both; height:60px; color:#fff; text-align:center; background-color:#000;  border-top:1px solid #506a89; font-size:10px; background-image:url(images/footer.gif); background-repeat:repeat-x}
+#footer ul {padding:10px 0 0 0}
+#footer ul li{display:inline; color:#fff}
+#footer a{padding:0 10px 0 10px; color:#fff}
+#footer a:link {text-decoration:none}
+#footer a:visited {text-decoration:none}
+#footer a:hover {text-decoration:underline}
+#footer p{color:#416b99; margin:5px 0 0 0}
+
+/* Innerpage */
+#innerpage {width: 712px; padding:0 0 20px 0}
+#innerpage h1 {font-size:18px; color:#fff; font-weight:normal; margin:5px 0 0 40px; background-image:url(images/h.jpg); background-repeat:no-repeat; line-height:45px; padding:0 0 0 10px}
+#innerpage p {font-size:11px; color:#000; font-weight:normal; padding:10px 0 0 40px}
+#innerpage ul {margin:10px 0 40px 200px}
+#innerpage li{color:71571c; line-height:20px}
+#innerpage li a:link{color:#000; text-decoration:underline}
+#innerpage li a:visited{color:#000; text-decoration:underline}
+#innerpage li a:hover{color:#ccc; text-decoration:none}
+#innerpage table {margin:30px 0 20px 130px; border:1px dotted #000}
+#innerpage form {color:#000}
+#innerpage label {color:#6c6c6c}
+#innerpage table tr{height:30px;}
+#innerpage table h2{ text-align:center; font-size:22px; font-weight:normal;color:#000;}
+#innerpage table span {padding:0 0 0 20px}
+
+/* Contact page */
+#contact {float: left; width: 400px;  border-left: 1px solid #000; margin:40px 0 20px 250px;}
+#contact h2{font-size:18px; color:#fff; font-weight:normal; margin:0 0 0 10px; background-image:url(images/h.jpg); background-repeat:no-repeat; line-height:45px; padding:0 0 0 10px}
+#contact h3{color:#fff; font-size:18px; font-weight:normal; margin:0px 0 0 20px}
+#contact p{color:#000; font-size:11px; padding:0px 0 5px 20px}
+#thankyou {text-align:center}
+#thankyou p {color:#fff}
